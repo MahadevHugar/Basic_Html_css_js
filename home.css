@@ -1,0 +1,137 @@
+
+
+.conatainer{
+    padding: 2px;
+    margin-left: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10.5px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: montserrat;
+    background-color: #153153 ;
+    background-size: cover;
+    height: calc(100vh-80px);
+
+
+}
+
+nav{   
+     background: #6260c1;
+    height: 110px;
+    margin-left: -13px;
+    margin-top: -10px;
+    width: 102%;
+    margin-left: -9px;
+}
+element.style {
+    margin-top: 10px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 62px;
+    margin-top: -18px;
+
+}
+nav ul li{
+    display: inline;
+    line-height: 40px;
+   margin:90px 10px 10px 90px;
+   text-decoration: none;
+    
+}
+
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;;
+}
+ 
+#main-footer{
+    background:#333;
+    color: #fff;
+    text-align: center;
+    margin-left: -10px;
+   margin-right: -5px;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-left:5px ;
+    padding-right:5px ;
+    
+}
+h2{
+    color: #fff;
+    margin-left: 30%;
+    padding-left: 10px;
+    
+}
+.t1 {
+    
+    margin-left:40px ;
+    color: #b9cee8;
+    border: solid;
+    border-color:#0b0c0c;
+}
+.table td{
+  
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 231px;
+    text-align: center;
+    border: solid;
+    margin: 10%;
+    
+    
+
+
+}
+.table th{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 144%;
+    color: #153152;
+    background-color: #8bee8b;
+    border-color: #8bed8b;
+    border: groove;
+    margin-left: -10px;
+     
+}
+table{
+    margin: 10px;
+    width: 80%;
+    height: 1%;
+}
+
+
+.none{
+    display: none;
+    position: relative;
+}
+.navbar ul li:hover > .none {
+    display: inline;
+}
+
+
+    
+
+h1{
+        color: #fff;
+        font-size: 26px;
+    }

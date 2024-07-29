@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./reg.css">
+    <!--<script src="https://kit.fontawesome.com/932b31a6a5.js" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="css/all.css">
+    <script src="reg.js"></script>
+</head>
+
+<body>
+    <!-- <script>
+        function validation2(){
+        var text=document.getElementById("phone").value;
+        var regx=/^[6-9]\d{9}$/;
+
+
+        if(regx.test(text)){
+           
+
+        }else{
+            document.getElementById("lblph").style.visibility="visible;"
+           return true;
+
+        }
+    } -->
+
+    </script>
+    <div class="main-parent">
+        <div class="from-wrap">
+            <form onsubmit=" return validation()" action="">
+                <div class="header">
+                    <div class="logo">
+                        <img src="logo_login.png" alt="Logo">
+
+                    </div>
+                    <h2><span>Agent Registration</span></h2>
+                    <!-- <label id="lblph" style="color: red; visibility: hidden;">Mobile number should be only digits</label> -->
+
+                    <div class="single-input">First Name
+                        <input type="text" id="fname" placeholder="&nbsp &nbsp First name">
+                        <i class="fa-sharp fa-solid fa-user"></i>
+                    </div><br>
+                    <div class="single-input">Last Name
+                        <input type="text" id="lname" placeholder="&nbsp &nbsp Last name">
+                        <i class="fa-sharp fa-solid fa-user"></i>
+                    </div><br>
+                    <div class="single-input">E-mail<br>
+                        <input type="text" id="email" placeholder=" &nbsp &nbsp Email address">
+                        <i class="fa-solid fa-envelope"></i><br>
+                        <label id="lblemail" style="color: red; visibility: hidden;">wrong email formot</label>
+
+                    </div>
+                    <div class="single-input"> Phone Number<br>
+                        <input type="text" id="phone" placeholder=" &nbsp &nbsp Phone Number">
+                        <i class="fa-duotone fa-mobile"></i><br>
+                        <label id="lblmob" style="color: red; visibility: hidden;">Mobile number should be 10 digit</label>
+
+
+                    </div>
+                    
+                    <div class="single-input">Password
+                        <input type="password" id="pass" placeholder=" &nbsp &nbsp Password">
+                        <i class="fa-solid fa-lock"></i>
+                    </div><br>
+                    <div class="single-input">Confirm Password
+                        <input type="password" id="cpass" placeholder="&nbsp &nbsp Confirm Password">
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </div>
+                          <!-- To give error message side of password field-->
+                     <lable id="lblpsw" style="color:red ; visibility: hidden;">password doesnot match</lable> 
+
+                    <div onclick="return validation2()" class="submit">
+                        <button class="btn1s"><b>SUBMIT</b></button>
+                        <div class="btn2">Reset</div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="account-have">
+
+                    <p></p>Already have an account? </p><a href="login.html"
+                        onclick="window.location.href='../login.html';" class="btn3">Login here!</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

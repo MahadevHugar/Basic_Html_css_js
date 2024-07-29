@@ -1,0 +1,163 @@
+
+body{
+        background-image: url(bgi.png);
+        background-repeat:no-repeat;
+        color:#fff;
+        padding: auto;
+        font-family: Arial, Helvetica, serif;
+        font-size: 12px;
+        text-align: justify;
+        font-weight: normal;
+        font:normal 16px Arial,Helvetica,sans-serif;
+        line-height: 1.6em;
+        margin: 0;
+
+    
+    
+    
+}
+
+
+
+.header{
+    
+    padding-left:30px;
+    padding-top:50px;
+    padding-bottom: 147px;
+    padding-right: 110px;
+    border-style: none;
+    
+    border-color: #153153;
+    border-width: 5px;
+    margin-right: 0;
+    margin-left: 56%;
+    margin-top: 0%;
+    margin-bottom:0;
+    background-color:#b4c8e0;
+      
+}
+.my-form{
+    padding-left:30% ;
+    margin-top: 0;
+    border-radius: 29px;
+    color:#153153 ;
+    
+}
+
+#uname{
+
+padding-left: 33px;
+padding-right: 20px;
+padding-top: 15px;
+padding-bottom: 20px;
+width: 70%;
+
+}
+#pwd{
+    padding-left: 33px;
+padding-right: 20px;
+padding-top: 23px;
+padding-bottom: 18px;
+width: 70%;
+
+
+}
+
+.button{
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+    background-color: #ea5455;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border-radius: 5px;
+}
+h2{
+    padding-left: 30%;
+    color:#349c42;
+       
+    
+}
+.btn{
+    padding: 15px;
+    width: 85%;
+    color: #fff;
+    background-color: #349c42;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border-radius: 20px;
+
+}
+.img {
+    background-color: #99BBFD;
+    
+        background-color: #99BBFD;
+        height: 66.9px;
+    
+}
+
+.logo1 h1{
+    color:#fff;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.logo1{
+    display: flex;                             /* using flex */ 
+    flex-direction: row;
+    justify-content: start;
+    align-items: center ;
+    border:1px #153153 solid;
+    
+    margin-left: 29%;
+    padding: -10px;
+    margin-right: 10%;
+
+    
+}
+.checkbox p{
+    font-size: 30px;
+}
+
+
+
+
+h3{
+    margin-left:10px;
+    color:black;
+}
+.my-form input[name="psw"]{
+    margin-top:-100px;
+}
+a:link{
+    text-decoration: none;
+}
+.fa-user{
+    
+  /*  margin-left: 180px; */
+    color: black;
+}
+
+
+ .icon{
+    left:0;
+ }
+ .fa-user::before {
+    content: "\f007";
+    position: inherit;
+    font-size: 23px;
+    /* top: 6px; */
+    margin-left: -311px;
+    top: 8px;
+}
+.fa-lock::before {
+    content: "\f023";
+    content: "\f007";
+    position: inherit;
+    font-size: 21px;
+    /* top: 6px; */
+    margin-left: -311px;
+    top: 8px;
+}

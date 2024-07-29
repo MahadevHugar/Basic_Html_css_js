@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <!--<script src="https://kit.fontawesome.com/932b31a6a5.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="css/all.css">
+  <script src="login.js"></script>
+</head>
+
+<body>
+  
+
+  <div class="header">
+    <div class="box">
+      <div class="logo">
+        <div class="logo1">
+          <img class="img" src="logo_login.png" alt="Logo">
+        </div>
+      </div>
+    </div>
+    <h2>Agent Login</h2>
+
+
+    <form onsubmit="return validation() " class="my-form" action="home.html">
+      <div class="form-group">
+        <label><b>Username</b></label><br>
+        <input type="text" id="uname" placeholder="  Enter Username" name="uname">
+        
+        <i class="fa-solid fa-user"></i>
+        
+        <label id="lbluser" style="color: red; visibility: hidden;">Username cannot be empty</label>
+
+      </div>
+      <div class="form-group">
+        <label><b>Password</b></label><br><br>
+        
+        <input class="psw" id="pwd" type="text" placeholder="   Enter Password" name="psw">
+        <i class="fa-solid fa-lock"></i>
+        <label id="lblpwd" style="color: red; visibility: hidden;">Password cannot be empty</label>
+        <label id="lbluser" style="color: red; visibility: hidden;">Username cannot be empty</label>
+        <label id="lblpwd1" style="color: red; visibility: hidden;">Password is too short</label>
+
+
+       
+
+        
+        <!-- To give error message side of password field
+        <lable id="lblpsw" style="color:red ; visibility: hidden;">password is too short</lable> -->
+        <!--<i class="fa-sharp fa-solid fa-eye-slash"></i>  -->
+      </div><br>
+
+      <input class="checkbox" type="checkbox"><b>Remember me<b></b> <br><br>
+        <!--<a href="file:///C:\Users\ADMIN\OneDrive\Desktop\Task 1\home.html"> -->
+        <button onclick="" class="btn" id="btn" type="submit"><b>LOGIN</b></button>
+
+        <h3>New/Existing Customer? <a href="reg.html" class="new">Register</a></h3>
+    </form>
+
+
+  </div>
+</body>
+
+</html>
